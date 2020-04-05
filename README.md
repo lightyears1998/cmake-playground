@@ -14,7 +14,8 @@ cmake --help # Take a look at "GENERATORS" section
 # "C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Auxiliary\Build\vcvars64.bat"
 
 # Generate native tool files
-cmake -S . -B _builds -G "Visual Studio 15 2017 Win64"
+# Be cautious with space in CLI arguments!
+cmake -H"." -B"_builds" -G"Visual Studio 15 2017 Win64"
 
 # Build
 cmake --build _builds
