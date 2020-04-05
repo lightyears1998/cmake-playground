@@ -1,6 +1,5 @@
 # Editors and IDEs configs
-# Sharing configs across machines in this playground project is intented.
-!.vscode
+.vscode
 
 # CMake
 CMakeFiles
